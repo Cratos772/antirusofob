@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<script src="https://kit.fontawesome.com/c187011e99.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/contact_style.css">
+	<title>Антирусофоб</title>
+</head>
+<body>
+
+	<div class="container">
+		
+		<header>
+			<nav class="nav-menu">
+			  <ul id="top_menu">
+			      <li><a href="./index.html" class="menu_item"><i class="fas fa-home"></i>Главная</a></li>
+			      <li><a href="./gallery.html" class="menu_item"><i class="fas fa-camera-retro"></i>Галерея</a></li>
+			      <li class="last-item"><a href="./contacts.html" class="menu_item"><i class="fas fa-address-card"></i>Контакты</a></li>
+			  </ul>
+			</nav>
+			<h1><a href="/"><span>А</span>нтирусофоб</a></h1>
+			<h3>Историко-политический блог</h3>
+		</header>
+
+      <div id="content">
+			<main>
+				<form class="contact_form" action="#" method="POST">
+					<fieldset>
+						<legend>Свяжитесь с нами</legend>
+						<label for="user_name">Введите Ваше имя:<span class="star">*</span></label>
+						<input type="text" id="user_name" placeholder="Например: Иван Романов" maxlength="20" minlength="3" autofocus required>
+						<br>
+						<label for="user_e-mail">Введите Ваш E-mail:<span class="star">*</span></label>
+						<input type="email" id="user_e-mail" maxlength="30" required>
+						<br>
+						<label for="user_phone">Введите Ваш телефон:</label>
+						<input type="tel" placeholder="+7 (93) 965-3565">
+						<br>
+						<label for="user_message">Введите Ваше сообщение:<span class="star">*</span></label>
+						<textarea name="user_message" id="user_message" minlength="5" required></textarea>
+						<br>
+						<button type="submit">Отправить</button>
+						<p><span class="star">*&nbsp;</span>Поля, помеченные звёздочкой, обязательны для заполнения.</p>
+					</fieldset>
+				</form>
+			</main>
+			<sidebar id="sidebar">
+				<aside>
+					<h3>О сайте</h3>
+					<p class="description-text">Данный ресурс предназначен для донесения правдивой информации о Российской политике и борьбы с русофобией.</p>
+				</aside>
+				<aside>
+					<h3>Рубрики</h3>
+					<ul class="aside__categories">
+						<li class="categories__item"><i class="fas fa-angle-right"></i><a href="#">Внутренняя политика</a></li>
+						<li class="categories__item"><i class="fas fa-angle-right"></i><a href="#">Внешняя политика</a></li>
+						<li class="categories__item"><i class="fas fa-angle-right"></i><a href="#">Исторические статьи</a></li>
+					</ul>
+				</aside>
+				<aside>
+					<h3>Календарь</h3>
+					<table id="calendar2">
+						<thead>
+						  <tr><td>‹<td colspan="5"><td>›
+						  <tr><td>Пн<td>Вт<td>Ср<td>Чт<td>Пт<td>Сб<td>Вс
+						<tbody>
+					 </table>
+				</aside>
+				<aside>
+					<h3>Поиск по сайту</h3>
+					<div class="input__wrapp">
+						<input type="text" class="search__input">
+						<button type="submit" class="search__but">Найти</button>
+					</div>
+				</aside>
+			</sidebar>
+		</div>
+
+		<footer class="footer">
+			<p>Все права защищены</p>
+			<p><span><i class="far fa-copyright"></i></span>2020&nbsp;<span><a href="#">Антирусофоб.</a></span> Историко-политический блог</p>
+		</footer>
+	
+	</div>
+		
+	<script src="./assets/js/jquery.min.js"></script>
+	<script src="./assets/js/script.js"></script>
+	<script src="./assets/js/calendar.js"></script>
+
+</body>
+</html>

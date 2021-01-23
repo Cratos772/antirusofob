@@ -1,0 +1,70 @@
+form {
+   margin-right: 15px;
+   height: 100%;
+}
+
+fieldset {
+   height: 93%;
+   margin-top: -12px;
+   padding: 15px;
+   border: 2px solid #C1C1C1;
+   border-radius: 5px;
+}
+
+legend {
+   font-size: 22px;
+   font-weight: bold;
+}
+
+h2 {
+   text-align: center;
+}
+
+label {
+   display: block;
+   margin-bottom: 7px;
+}
+
+.contact_form input {
+   width: 50%;
+   height: 23px;
+}
+
+textarea {
+   width: 50%;
+   min-height: 70px;
+   margin-bottom: 10px;
+   padding: 5px;
+   border: 1.5px solid #0048BA;
+   border-radius: 3px;
+}
+
+span.star {
+   margin-left: 5px;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.contact_form button[type=submit] {
+   margin-bottom: 10px;
+}
+
+/*======================================== media queryes ===============================================*/
+
+/* Extra large devices (large desktops)
+/* No media query since the extra-large breakpoint has no upper bound on its width
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {}
+	
+@media (max-width: 991.98px) {
+   
+   #content {
+      padding-right: 0;
+   }
+}
+
+@media (max-width: 615px) {}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {}
